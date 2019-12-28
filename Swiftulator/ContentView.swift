@@ -9,9 +9,37 @@
 import SwiftUI
 
 struct ContentView: View {
+    var number = 0
     var body: some View {
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        
+        VStack(){
+            Text("Swiftulator")
+            TextField("Number Display")
+            HStack(){
+                Text("1")
+                Text("2")
+                Text("3")
+                Text("+")
+            }
+            HStack(){
+                Text("4")
+                Text("5")
+                Text("6")
+                Text("-")
+            }
+            HStack(){
+                Text("7")
+                Text("8")
+                Text("9")
+                Text("*")
+            }
+            HStack(){
+                Text("-/+")
+                Text("0")
+                Text("/")
+                Text("=")
+            }
+        }
     }
 }
 

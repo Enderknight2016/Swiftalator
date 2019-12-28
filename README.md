@@ -1,2 +1,2 @@
-# Swiftalator
+# Swiftulator
 Calculator using swiftui
